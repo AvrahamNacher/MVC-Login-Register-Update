@@ -1,0 +1,54 @@
+#newRegistrationButton {
+    cursor: pointer;
+}
+
+
+#register input, 
+#settings-page input {
+    display: inline-block;
+    margin-bottom: 25px;
+}
+
+#register span, 
+#settings-page span {
+    color: red;
+}
+
+#settings-button {
+    display: flex;
+    justify-content: flex-end;
+}
+
+label {
+    display: inline-block;
+    min-width: 100px;
+    padding-bottom: 15px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 1px 2px 3px 1px rgba(0, 0, 0, 0.466);
+    transition: box-shadow 0.4s;
+}
+
+.btn:hover {
+    box-shadow: 2px 3px 5px 1px rgba(0, 0, 0, 0.63);
+}
+
+#welcome-screen-message {
+    margin-top: 20px;
+}
+
+input[type=submit] {
+    margin-left: 30%;
+}
+
+#back-button {
+    margin-left: 10%;
+}
+
+#logout-button {
+    margin-top: 120px;
+}
